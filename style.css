@@ -1,11 +1,16 @@
 body {
-	font-family: arial;
+	font-family: 'Poiret One', cursive;
 	text-align: center;
 }
+
 a {
-	color: blue;
+	color: #ffb3cc;
 	text-decoration: none;
 }
+h3 {
+	color: #ffb3cc;
+}
+
 header {
 	background-color: rgb(240,240,240);
 }
@@ -15,6 +20,7 @@ header {
 	border-bottom: 1px solid black;
 	width: 100%;
 	padding-bottom: 40px;
+
 }
 .nav a {
 	color: black;
@@ -23,4 +29,17 @@ header {
 	display: inline-block;
 	text-decoration: none;
 	padding-right: 20px;
+}
+
+p {
+	text-align: left;
+}
+.doors-p {
+	text-align: justify;
+	margin-left: 350px;
+    margin-right: 350px;
+}
+.signature {
+	text-align: right;
+	margin-right: 350px;
 }
