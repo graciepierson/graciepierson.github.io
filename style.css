@@ -1,5 +1,19 @@
+@font-face {
+	font-family: sf-reg;
+	src: url(fonts/SanFranciscoDisplay-Regular.otf);
+}
+@font-face {
+	font-family: sf-thin;
+	src: url(fonts/SanFranciscoDisplay-Thin.otf);
+}
+@font-face {
+	font-family: sf-bold;
+	src: url(fonts/SanFranciscoDisplay-Bold.otf);
+}
+
+
 body {
-	font-family: 'Poiret One', cursive;
+	font-family: sf-thin;
 	text-align: center;
 }
 
@@ -7,12 +21,22 @@ a {
 	color: #ffb3cc;
 	text-decoration: none;
 }
+
 h3 {
 	color: #ffb3cc;
 }
 
 header {
-	background-color: rgb(240,240,240);
+	background-color: rgb(248,248,248);
+	font-size: 20px;
+	padding-top: 20px;
+
+}
+
+header h1 {
+	font-size: 38px;
+	font-family: sf-reg;
+	text-transform: uppercase;
 }
 .nav {
 	display: inline-block;
@@ -20,6 +44,7 @@ header {
 	border-bottom: 1px solid black;
 	width: 100%;
 	padding-bottom: 40px;
+	padding-top: 40px;
 
 }
 .nav a {
@@ -28,18 +53,87 @@ header {
 .nav li {
 	display: inline-block;
 	text-decoration: none;
-	padding-right: 20px;
+	padding-right: 40px;
+	font-size: 24px;
+
 }
 
 p {
 	text-align: left;
+	line-height: 1.5;
 }
 .doors-p {
 	text-align: justify;
 	margin-left: 350px;
     margin-right: 350px;
+    line-height: 1.5;
+    padding-top: 40px;
 }
 .signature {
 	text-align: right;
 	margin-right: 350px;
+	color: #ffb3cc;
 }
+
+.genreheader {
+	color: #ffb3cc;
+	font-size: 25px;
+}
+
+.underline {
+	/*text-decoration: underline;*/
+	font-size: 40px;
+	font-family: sf-bold;
+	padding-top: 30px;
+
+}
+
+.shortstoryexcerpt { 
+	padding: 25px;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 40px;
+ }
+ .shortstoryexcerpt p { 
+	padding-bottom: 25px;
+
+	
+ }
+.projects {
+	font-size: 40px;
+	text-align: left;
+}
+.featured img { 
+	width: 33.3%;
+	float: left;
+	transition: all .5s;
+
+ }
+ .featured img:hover {
+ 	filter: brightness(70%);
+ 	transition: all .5s;
+ }
+
+ .stars {
+ 	text-align: center;
+ 	padding-bottom: 50px;
+ 	letter-spacing: 20px;
+  }
+
+.contact {
+	font-size: 26px;
+	padding-top: 20px;
+}
+.contact h1 {
+	padding-bottom: 20px;
+
+}
+.contact h2 {
+	padding-bottom: 20px;
+	
+}
+.denim img {
+	width: 50%;
+}
+
+
