@@ -1,0 +1,49 @@
+.projects h1 {
+	/*text-transform: uppercase;*/
+	font-family: 'Oxygen', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	color: black;
+}
+.projects {
+	align-content: center;
+}
+
+.doors {
+	text-align: justify;
+    line-height: 1.5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.doors p {
+	font-size: 18px;
+}
+.doors h3 {
+	font-family: 'Rozha One', serif;
+	font-size: 45px;
+}
+.mstory {
+	text-align: justify;
+    line-height: 1.5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*margin: auto;*/
+}
+.mstory p {
+	font-size: 18px;
+}
+.mstory h3 {
+	font-family: 'Rozha One', serif;
+	font-size: 45px;
+}
+.contact h1 {
+	font-family: 'Rozha One', serif;
+	font-size: 45px;
+}
+.contact h2 {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 20px;
+}
+.contact {
+	margin: 0px;
+}

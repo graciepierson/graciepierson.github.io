@@ -1,0 +1,93 @@
+
+header {
+	background-color: white;
+	/*padding-top: 10px;*/
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+
+}
+
+header h1 {
+	font-size: 65px;
+	font-family: 'Rozha One', serif;
+	text-transform: uppercase;
+	text-align: left; 
+	margin-bottom: 1px;
+	margin-top: 4px;
+	
+}
+.nav {
+	display: inline-block;
+	text-decoration: none;
+	width: 100%;
+	margin-left: 7px;
+	padding-bottom: 3px;
+}
+.nav li {
+	display: inline-block;
+	text-decoration: none;
+	padding-right: 30px;
+	font-size: 20px;
+	font-family: 'Oxygen', sans-serif;
+	color: black;
+}
+.navbar {
+	margin-left: 10px;
+}
+
+
+/* unvisited link */
+.name a:link {
+    color: #fcb0ba;
+}
+/* visited link */
+.name a:visited {
+    color: #fcb0ba;
+}
+/* mouse over link */
+.name a:hover {
+    color: #fcb0ba;
+}
+/* selected link */
+.name a:active {
+    color: #fcb0ba;
+}
+
+
+
+
+
+/* unvisited link */
+.nav a:link {
+    color: black;
+}
+/* visited link */
+.nav a:visited {
+    color: black;
+}
+/* mouse over link */
+.nav a:hover {
+    color: lightgray;
+}
+/* selected link */
+.nav a:active {
+    color: lightgray;
+}
+
+
+/* featured */ 
+.featured img { 
+	width: 100%;
+	float: left;
+	transition: all .5s;
+
+ }
+ .featured img:hover {
+ 	filter: brightness(70%);
+ 	transition: all .5s;
+/* }
+ .col.m4.s12 {
+ 	padding: 15px 10px 0px 10px;
+ 
+ }*/
+
